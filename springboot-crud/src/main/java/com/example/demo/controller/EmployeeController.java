@@ -21,7 +21,8 @@ import com.example.demo.model.employee;
 import com.example.demo.repository.EmployeeRepository;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+// @CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping("api/v1/")
 public class EmployeeController {
 
